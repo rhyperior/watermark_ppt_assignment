@@ -1,0 +1,18 @@
+#ignore all the images at local(folddr content)
+Images/*
+Dispose/*
+PPT-Logo*
+
+#ignore the venv
+venv/*
+
+#keep the project-folder structure
+!Images/.gitkeep
+
+
+#ignore zip files
+*.zip
+
+#ignore Image files
+*.png
+*.jpg
